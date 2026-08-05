@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scoreboard FC NỢ TỘC vs FC XÓM NGHIỆN - 09/07/2026</title>
+    <meta name="description" content="Bảng tỉ số trực tiếp trận giao hữu FC NỢ TỘC vs FC XÓM NGHIỆN ngày 09/07/2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260709-1">
+  </head>
+  <body>
+    <main class="broadcast-stage" aria-label="Scoreboard livestream">
+      <section class="scoreboard" aria-live="polite" aria-label="Tỉ số trận đấu">
+        <div class="score-row">
+          <div class="clock-cell" aria-label="Thời gian trận đấu">
+            <span class="clock-value" id="clockLabel">00:00</span>
+            <span class="half-pill" id="halfLabel">H1</span>
+          </div>
+
+          <article class="team team-left" id="leftTeam">
+            <span class="team-accent"></span>
+            <span class="team-name" id="leftName">FC NỢ TỘC</span>
+          </article>
+
+          <div class="score-core" aria-label="Tỉ số hiện tại">
+            <span class="score-number" id="leftScore">0</span>
+            <span class="score-divider" aria-hidden="true"></span>
+            <span class="score-number" id="rightScore">0</span>
+          </div>
+
+          <article class="team team-right" id="rightTeam">
+            <span class="team-name" id="rightName">FC XÓM NGHIỆN</span>
+            <span class="team-accent"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="control-panel" aria-label="Bảng điều khiển tỉ số">
+        <div class="panel-heading">
+          <p class="eyebrow">Trận giao hữu · 09.07.2026</p>
+          <h1>FC NỢ TỘC vs FC XÓM NGHIỆN</h1>
+        </div>
+
+        <div class="quick-status" aria-live="polite">
+          <span id="summaryText">FC NỢ TỘC 0 - 0 FC XÓM NGHIỆN</span>
+          <span id="sideText">Vị trí gốc</span>
+          <span id="syncText">Đang kết nối</span>
+        </div>
+
+        <div class="team-controls" id="teamControls"></div>
+
+        <div class="timer-controls" aria-label="Điều khiển thời gian">
+          <div class="timer-readout">
+            <span>Thời gian</span>
+            <strong id="panelClock">00:00</strong>
+          </div>
+          <div class="timer-buttons">
+            <button type="button" class="action-button primary-action" id="clockToggleButton">
+              <span aria-hidden="true">▶</span>
+              Bắt đầu
+            </button>
+            <button type="button" class="action-button" id="clockMinusButton">−1 phút</button>
+            <button type="button" class="action-button" id="clockPlusButton">+1 phút</button>
+            <button type="button" class="action-button danger-action" id="clockResetButton">Reset giờ</button>
+          </div>
+        </div>
+
+        <div class="match-controls" aria-label="Điều khiển trận đấu">
+          <button type="button" class="action-button primary-action" id="swapButton">
+            <span aria-hidden="true">↔</span>
+            Đổi bên
+          </button>
+          <button type="button" class="action-button" id="halfButton">
+            <span aria-hidden="true">II</span>
+            Sang hiệp
+          </button>
+          <button type="button" class="action-button danger-action" id="resetButton">
+            <span aria-hidden="true">↺</span>
+            Reset
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js?v=20260709-3"></script>
+  </body>
+</html>
