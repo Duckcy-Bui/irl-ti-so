@@ -1,9 +1,9 @@
 {
   "rules": {
     "matches": {
-      "notoc-nkfc-2026-08-07": {
-        ".read": "now < 1786294800000",
-        ".write": "now < 1786294800000"
+      "sblt-xomnghien-2026-10-29": {
+        ".read": "now < 1793379600000",
+        ".write": "now < 1793379600000"
       }
     }
   }
