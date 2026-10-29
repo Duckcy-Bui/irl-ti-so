@@ -1,5 +1,5 @@
-const STORAGE_KEY = "notoc-xomnghien-2026-07-09-scoreboard";
-const MATCH_ID = "notoc-xomnghien-2026-07-09";
+const STORAGE_KEY = "notoc-nkfc-2026-08-07-scoreboard";
+const MATCH_ID = "notoc-nkfc-2026-08-07";
 const FIREBASE_SDK_VERSION = "12.15.0";
 
 const firebaseConfig = {
@@ -31,10 +31,10 @@ const defaultState = {
       color: "#e4222f"
     },
     {
-      id: "xom-nghien",
-      name: "FC XÓM NGHIỆN",
+      id: "nk-fc",
+      name: "NK FC",
       score: 0,
-      color: "#b16cff"
+      color: "#38bdf8"
     }
   ]
 };
