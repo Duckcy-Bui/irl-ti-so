@@ -1,5 +1,5 @@
-const STORAGE_KEY = "notoc-nkfc-2026-08-07-scoreboard";
-const MATCH_ID = "notoc-nkfc-2026-08-07";
+const STORAGE_KEY = "sblt-xomnghien-2026-10-29-scoreboard";
+const MATCH_ID = "sblt-xomnghien-2026-10-29";
 const FIREBASE_SDK_VERSION = "12.15.0";
 
 const firebaseConfig = {
@@ -25,16 +25,16 @@ const defaultState = {
   clockStartedAt: null,
   teams: [
     {
-      id: "no-toc",
-      name: "FC NỢ TỘC",
+      id: "sblt-fc",
+      name: "SBLT FC",
       score: 0,
-      color: "#e4222f"
+      color: "#ff8a1f"
     },
     {
-      id: "nk-fc",
-      name: "NK FC",
+      id: "xom-nghien",
+      name: "FC XÓM NGHIỆN",
       score: 0,
-      color: "#38bdf8"
+      color: "#b16cff"
     }
   ]
 };

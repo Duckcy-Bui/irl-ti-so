@@ -3,8 +3,8 @@
   --pitch-green: #123b2e;
   --panel-ink: #07120f;
   --panel-soft: #e9f3ef;
-  --no-toc: #e4222f;
-  --nk-fc: #38bdf8;
+  --sblt-fc: #ff8a1f;
+  --xom-nghien: #b16cff;
   --mint-score: #64ead0;
   --white: #ffffff;
   --muted: #9fb8ad;
@@ -26,7 +26,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   background:
-    radial-gradient(circle at 74% 11%, rgba(56, 189, 248, 0.22), transparent 22rem),
+    radial-gradient(circle at 74% 11%, rgba(177, 108, 255, 0.22), transparent 22rem),
     linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
     linear-gradient(0deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(135deg, var(--pitch-night), var(--pitch-green) 55%, #071714);
@@ -177,14 +177,14 @@ input:focus-visible {
 
 .team-left .team-accent {
   left: 18px;
-  color: var(--no-toc);
-  background: var(--no-toc);
+  color: var(--sblt-fc);
+  background: var(--sblt-fc);
 }
 
 .team-right .team-accent {
   right: 18px;
-  color: var(--nk-fc);
-  background: var(--nk-fc);
+  color: var(--xom-nghien);
+  background: var(--xom-nghien);
 }
 
 .team-name {
