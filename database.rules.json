@@ -1,9 +1,9 @@
 {
   "rules": {
     "matches": {
-      "sblt-xomnghien-2026-10-29": {
-        ".read": "now < 1793379600000",
-        ".write": "now < 1793379600000"
+      "sblt-midfeed-2026-11-05": {
+        ".read": "now < 1793984400000",
+        ".write": "now < 1793984400000"
       }
     }
   }

@@ -1,5 +1,5 @@
-const STORAGE_KEY = "sblt-xomnghien-2026-10-29-scoreboard";
-const MATCH_ID = "sblt-xomnghien-2026-10-29";
+const STORAGE_KEY = "sblt-midfeed-2026-11-05-scoreboard";
+const MATCH_ID = "sblt-midfeed-2026-11-05";
 const FIREBASE_SDK_VERSION = "12.15.0";
 
 const firebaseConfig = {
@@ -31,10 +31,10 @@ const defaultState = {
       color: "#ff8a1f"
     },
     {
-      id: "xom-nghien",
-      name: "FC XÓM NGHIỆN",
+      id: "midfeed",
+      name: "FC MIDFEED",
       score: 0,
-      color: "#b16cff"
+      color: "#40a9ff"
     }
   ]
 };
